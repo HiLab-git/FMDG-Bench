@@ -1,0 +1,63 @@
+# ---- data (never commit; datasets live outside the repo) ----
+/data/
+/datasets/
+*.nii
+*.nii.gz
+*.dcm
+*.npz
+*.npy
+*.pkl
+
+# ---- checkpoints / weights ----
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.engine
+*.bin
+/checkpoints/
+/work_dir/
+/runs/
+/results/
+
+# ---- training artifacts ----
+/logs/
+/logss/
+/logsss/
+/log_dir/
+/outputs/
+events.out.tfevents.*
+*.tfevents.*
+*.log
+*.logss
+
+# ---- media / notebooks (excluded on purpose) ----
+*.mp4
+*.avi
+*.mov
+*.ipynb
+.ipynb_checkpoints/
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+/.venv/
+/venv/
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- misc ----
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+env_reports/
+/tmp/
